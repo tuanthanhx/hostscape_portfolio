@@ -1,5 +1,5 @@
 const revealItems = document.querySelectorAll(
-  ".portfolio-showcase__intro, .portfolio-showcase__toolbar, .portfolio-card"
+  ".portfolio-showcase__intro, .portfolio-card"
 );
 
 if (revealItems.length > 0) {
