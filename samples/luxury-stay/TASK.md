@@ -80,3 +80,31 @@ Build a standalone sample website for this folder.
 ## Notes For Future Copying
 - This file can be duplicated to other sample folders and adapted section-by-section
 - Keep the structure, but rewrite the objective, audience, and required sections to fit each sample concept
+
+## Implementation Notes
+- Implemented as a single-page static landing page with `index.html`, `css/styles.css`, and `js/scripts.js`
+- Visual direction uses local placeholder PNG assets so future agents or reviewers can swap images without restructuring the HTML
+- JavaScript is limited to:
+  - mobile navigation toggle
+  - reveal-on-scroll behavior with `prefers-reduced-motion` support
+- Content tone is aimed at Japanese users comparing premium urban hotel stays on mobile first
+- Primary conversion path is the booking CTA near the hero and closing reservation section
+- Replaceable placeholder image files:
+  - `img/hero-placeholder.png`
+  - `img/room-premier-placeholder.png`
+  - `img/room-terrace-placeholder.png`
+  - `img/room-signature-placeholder.png`
+  - `img/dining-placeholder.png`
+  - `img/experience-placeholder.png`
+
+## Review Notes
+- A browser-based check was run locally on March 13, 2026
+- Verified:
+  - desktop render
+  - mobile render
+  - no horizontal overflow at tested viewports
+  - no console errors during load
+  - mobile navigation opens correctly
+- Review artifacts saved locally:
+  - `review-desktop.png`
+  - `review-mobile.png`

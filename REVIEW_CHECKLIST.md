@@ -36,3 +36,5 @@ Use this checklist before marking any sample complete.
 - Unused code is minimized
 - Animation respects reduced-motion preferences when relevant
 - Files remain scoped to the assigned sample folder
+- Replaceable images, if present, use clear local filenames and are easy to swap
+- If browser-based QA was run, sample-local notes or artifacts are recorded clearly for future agents

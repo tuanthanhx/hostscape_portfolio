@@ -31,13 +31,15 @@ Each `samples/{slug}/` folder should aim to contain:
 - `css/styles.css`
 - `js/scripts.js`
 - `COLOR_SCHEMA.md`
-- Optional local assets inside `images/` or `assets/`
+- `QA.md` when browser-based checks or handoff notes are useful
+- Optional local assets inside `img/` or `assets/`
 
 If a sample is intentionally static and does not need JavaScript, keep `js/scripts.js` as a small placeholder or omit it only if the main agent allows that deviation.
 
 ## Non-Negotiable Rules
 - Use the existing slug from `samples/INDEX.md`.
 - Keep all sample assets local to the sample folder.
+- If a design uses replaceable images, prefer explicit local files such as `img/hero-placeholder.png` wired through `<img>` tags so future agents can swap assets without restructuring the page.
 - Build responsive layouts for mobile and desktop.
 - Use semantic HTML and accessible interaction patterns.
 - Build sample websites in Japanese by default, including headings, body copy, CTAs, and navigation labels.
@@ -49,8 +51,9 @@ If a sample is intentionally static and does not need JavaScript, keep `js/scrip
 1. Main agent selects a sample from `samples/INDEX.md`.
 2. Sub-agent reads the sample `COLOR_SCHEMA.md`.
 3. Sub-agent generates the website following shared rules.
-4. Sub-agent self-checks against `REVIEW_CHECKLIST.md`.
-5. Main agent reviews output and updates status in `samples/INDEX.md`.
+4. Sub-agent adds sample-local implementation or QA notes when they will help future agents reuse the work.
+5. Sub-agent self-checks against `REVIEW_CHECKLIST.md`.
+6. Main agent reviews output and updates status in `samples/INDEX.md`.
 
 ## Output Standard
 - The website should feel intentionally designed, not boilerplate.

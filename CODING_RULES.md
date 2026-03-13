@@ -17,6 +17,7 @@ These rules apply to all generated sample websites.
 - Avoid empty anchors and empty buttons.
 - Write realistic Japanese sample copy that matches the project type.
 - Set the document language correctly, typically `lang="ja"`.
+- For replaceable visual content, prefer `<img>` tags with stable local filenames over CSS-only background mocks.
 
 ## CSS Rules
 - Define theme variables in `:root`.
@@ -34,6 +35,7 @@ These rules apply to all generated sample websites.
 ## Asset Rules
 - Prefer CSS gradients, shapes, and layout design before adding many images.
 - If images are used, keep them local to the sample folder.
+- When images are likely to be replaced by a reviewer later, create clearly named placeholder files such as `img/hero-placeholder.png` and document them in the sample folder.
 - Do not hotlink third-party assets unless explicitly approved.
 
 ## Quality Rules
@@ -43,3 +45,4 @@ These rules apply to all generated sample websites.
 - No broken relative paths.
 - Keep comments short and only where they clarify non-obvious code.
 - Do not leave English UI copy unless the sample explicitly needs bilingual or English-only content.
+- If a browser-based check is performed, store any useful notes or screenshot artifact names in sample-local markdown so later agents can verify changes consistently.

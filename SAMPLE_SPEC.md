@@ -12,6 +12,7 @@ This document defines the shared contract for every sample website in `./samples
 - `css/styles.css`
 - `js/scripts.js` if interaction is needed
 - Local assets only when necessary
+- When images are expected to be replaced later, use clearly named local placeholder files inside `img/`
 
 ## Minimum Page Content
 - Hero section with a clear concept-specific headline
@@ -48,6 +49,7 @@ This document defines the shared contract for every sample website in `./samples
 - Prefer CSS over heavy JS for visual effects
 - Avoid unnecessary dependencies
 - Optimize image count and file size when assets are added
+- If placeholders are used, keep them simple and local so agents can replace them without changing markup
 
 ## Visual Direction
 - Respect the palette and mood in `COLOR_SCHEMA.md`
@@ -61,3 +63,5 @@ This document defines the shared contract for every sample website in `./samples
 - Paths inside a sample should be relative to that sample folder
 - Samples should run as static files without a build step by default
 - Japanese copy is the default content language unless a specific sample brief says otherwise
+- Prefer `<img>` tags with stable local filenames for major replaceable visuals such as hero, room, menu, or gallery images
+- When a browser-based QA pass is done, record the result in a sample-local markdown file such as `QA.md`
