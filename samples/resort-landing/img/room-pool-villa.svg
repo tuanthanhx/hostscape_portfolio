@@ -1,0 +1,16 @@
+<svg width="800" height="520" viewBox="0 0 800 520" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="poolTitle poolDesc">
+  <title id="poolTitle">Pool villa placeholder</title>
+  <desc id="poolDesc">A stylized cliffside pool villa with sunset sky and private deck.</desc>
+  <rect width="800" height="520" rx="32" fill="#F7FBF9"/>
+  <rect width="800" height="250" rx="32" fill="#D9EFE9"/>
+  <circle cx="642" cy="108" r="46" fill="#F4B860"/>
+  <path d="M0 269C104 240 158 208 265 208C372 208 423 262 539 267C641 271 717 235 800 194V520H0V269Z" fill="#5FB3A2"/>
+  <path d="M0 330C107 319 202 344 272 382C336 417 404 429 489 410C572 391 681 307 800 302V520H0V330Z" fill="#0F766E"/>
+  <rect x="136" y="202" width="256" height="102" rx="18" fill="#FEFCF8"/>
+  <rect x="428" y="172" width="194" height="132" rx="18" fill="#FEFCF8"/>
+  <rect x="160" y="228" width="196" height="46" rx="14" fill="#D8EFE8"/>
+  <rect x="454" y="198" width="142" height="76" rx="14" fill="#D8EFE8"/>
+  <rect x="96" y="334" width="420" height="72" rx="22" fill="#C7F0F7"/>
+  <path d="M96 371C147 356 184 376 233 390C289 406 345 406 402 391C447 378 483 353 516 338V406H96V371Z" fill="#8FE5F4"/>
+  <text x="88" y="474" fill="#F3FBF8" font-family="sans-serif" font-size="24" font-weight="700" letter-spacing="3">POOL VILLA</text>
+</svg>

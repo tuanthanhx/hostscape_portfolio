@@ -1,0 +1,19 @@
+<svg width="800" height="520" viewBox="0 0 800 520" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="gardenTitle gardenDesc">
+  <title id="gardenTitle">Garden villa placeholder</title>
+  <desc id="gardenDesc">A stylized garden villa with lawn, terrace, and palm trees.</desc>
+  <rect width="800" height="520" rx="32" fill="#F3FBF8"/>
+  <rect y="324" width="800" height="196" rx="32" fill="#B7E5C6"/>
+  <rect x="146" y="168" width="498" height="162" rx="20" fill="#FEFCF8"/>
+  <rect x="178" y="112" width="180" height="94" rx="16" fill="#FEFCF8"/>
+  <rect x="374" y="112" width="238" height="94" rx="16" fill="#FEFCF8"/>
+  <rect x="188" y="192" width="146" height="88" rx="12" fill="#D6EEE7"/>
+  <rect x="388" y="192" width="188" height="88" rx="12" fill="#D6EEE7"/>
+  <rect x="194" y="352" width="412" height="60" rx="20" fill="#C89D67"/>
+  <path d="M88 356C88 277 113 206 160 146" stroke="#7A5336" stroke-width="14" stroke-linecap="round"/>
+  <path d="M716 356C716 277 691 206 644 146" stroke="#7A5336" stroke-width="14" stroke-linecap="round"/>
+  <path d="M138 186C102 157 76 132 56 92" stroke="#7A5336" stroke-width="14" stroke-linecap="round"/>
+  <path d="M148 170C96 174 59 164 24 140" stroke="#7A5336" stroke-width="14" stroke-linecap="round"/>
+  <path d="M662 186C698 157 724 132 744 92" stroke="#7A5336" stroke-width="14" stroke-linecap="round"/>
+  <path d="M652 170C704 174 741 164 776 140" stroke="#7A5336" stroke-width="14" stroke-linecap="round"/>
+  <text x="90" y="470" fill="#0F766E" font-family="sans-serif" font-size="24" font-weight="700" letter-spacing="3">GARDEN VILLA</text>
+</svg>

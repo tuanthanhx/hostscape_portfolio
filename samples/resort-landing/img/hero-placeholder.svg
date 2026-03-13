@@ -1,0 +1,31 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="heroTitle heroDesc">
+  <title id="heroTitle">Resort hero placeholder</title>
+  <desc id="heroDesc">An abstract tropical resort scene with pool, villas, palms, and ocean.</desc>
+  <rect width="1200" height="900" fill="#EAF7F3"/>
+  <rect y="520" width="1200" height="380" fill="#D0EEE6"/>
+  <path d="M0 553C135 512 239 488 366 496C521 505 593 577 754 572C922 567 1043 484 1200 448V900H0V553Z" fill="#8FD1C4"/>
+  <path d="M0 604C115 576 190 589 289 625C403 667 519 698 645 676C770 655 892 560 1052 559C1114 558 1158 570 1200 589V900H0V604Z" fill="#5FB3A2"/>
+  <rect y="630" width="1200" height="270" fill="#0F766E"/>
+  <rect x="156" y="398" width="502" height="108" rx="20" fill="#FEFCF8"/>
+  <rect x="184" y="342" width="136" height="88" rx="14" fill="#FEFCF8"/>
+  <rect x="334" y="312" width="148" height="118" rx="14" fill="#FEFCF8"/>
+  <rect x="498" y="358" width="128" height="72" rx="14" fill="#FEFCF8"/>
+  <rect x="204" y="372" width="96" height="38" rx="10" fill="#D7EFE9"/>
+  <rect x="354" y="344" width="108" height="52" rx="10" fill="#D7EFE9"/>
+  <rect x="522" y="380" width="80" height="28" rx="10" fill="#D7EFE9"/>
+  <rect x="720" y="478" width="292" height="116" rx="28" fill="#F7D8A5"/>
+  <rect x="752" y="510" width="230" height="52" rx="20" fill="#FEFCF8"/>
+  <rect x="78" y="560" width="592" height="146" rx="28" fill="#C9F0F8"/>
+  <path d="M78 617C171 596 209 641 290 634C389 625 464 566 562 589C606 599 639 621 670 640V706H78V617Z" fill="#9BE4F3"/>
+  <circle cx="983" cy="159" r="58" fill="#F4B860"/>
+  <path d="M987 612C987 481 1024 362 1090 287" stroke="#7A5336" stroke-width="15" stroke-linecap="round"/>
+  <path d="M1052 349C1097 316 1125 281 1142 233" stroke="#7A5336" stroke-width="15" stroke-linecap="round"/>
+  <path d="M1071 318C1125 331 1161 338 1200 329" stroke="#7A5336" stroke-width="15" stroke-linecap="round"/>
+  <path d="M1027 395C1070 406 1119 435 1148 462" stroke="#7A5336" stroke-width="15" stroke-linecap="round"/>
+  <path d="M1104 282C1161 275 1196 255 1200 221" stroke="#7A5336" stroke-width="15" stroke-linecap="round"/>
+  <path d="M986 611C986 500 955 409 889 338" stroke="#7A5336" stroke-width="14" stroke-linecap="round"/>
+  <path d="M921 398C875 361 836 338 778 329" stroke="#7A5336" stroke-width="14" stroke-linecap="round"/>
+  <path d="M901 361C849 365 807 354 760 325" stroke="#7A5336" stroke-width="14" stroke-linecap="round"/>
+  <path d="M936 453C882 449 833 459 782 489" stroke="#7A5336" stroke-width="14" stroke-linecap="round"/>
+  <text x="80" y="820" fill="#F3FBF8" font-family="sans-serif" font-size="36" font-weight="700" letter-spacing="4">HERO PLACEHOLDER</text>
+</svg>
