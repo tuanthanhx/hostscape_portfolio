@@ -17,7 +17,7 @@ Use this file as the registry for all sample websites in `./samples/`.
 | Seasonal Travel Promotion | `seasonal-travel` | done | Travel campaign microsite |
 | Traditional Inn Storytelling Page | `traditional-inn` | done | Ryokan-style editorial website |
 | Dining & Reservation Showcase | `dining-reservation` | done | Restaurant booking-focused site |
-| Business Service Corporate Site | `business-service` | planned | Structured B2B corporate website |
+| Business Service Corporate Site | `business-service` | done | Structured B2B corporate website |
 | Wellness Experience Landing Page | `wellness-experience` | planned | Calm wellness service landing page |
 | Hotel Information Architecture Build | `hotel-information` | planned | Scalable multi-page hotel structure |
 | Seasonal Product Promotion Page | `seasonal-product` | planned | Retail campaign page |
