@@ -20,7 +20,8 @@ Build a standalone sample website for this folder.
 - Read `./COLOR_SCHEMA.md`
 
 ## Output
-- Create `index.html`
+- Create a single-page static microsite centered on `index.html`
+- Keep seasonal offers and booking prompts on one page for campaign clarity
 - Create `css/styles.css`
 - Create `js/scripts.js` only if interaction adds clear value
 

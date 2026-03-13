@@ -5,7 +5,7 @@ Build a standalone sample website for this folder.
 ## Sample Identity
 - Title: Destination Guide Portal
 - Slug: `destination-guide`
-- Type: Area guide and tourism portal
+- Type: Multi-page area guide and tourism portal
 
 ## Objective
 - Create a portal-style website introducing a destination through highlights, categories, and seasonal appeal.
@@ -20,7 +20,14 @@ Build a standalone sample website for this folder.
 - Read `./COLOR_SCHEMA.md`
 
 ## Output
-- Create `index.html`
+- Create a 5-page static website
+- Required pages:
+  - `index.html` for destination overview and category entry
+  - `spots.html` for featured places and area highlights
+  - `seasonal.html` for seasonal events and best-timing guidance
+  - `model-course.html` for suggested itineraries and travel tips
+  - `access.html` for transportation, planning support, and FAQs
+- Keep shared assets inside the sample folder
 - Create `css/styles.css`
 - Create `js/scripts.js` only if interaction adds clear value
 

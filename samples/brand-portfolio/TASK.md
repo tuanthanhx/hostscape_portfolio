@@ -5,7 +5,7 @@ Build a standalone sample website for this folder.
 ## Sample Identity
 - Title: Brand Portfolio Presentation
 - Slug: `brand-portfolio`
-- Type: Editorial brand showcase website
+- Type: Multi-page editorial brand showcase website
 
 ## Objective
 - Create a showcase website presenting brand work, collaborations, or project highlights in an editorial style.
@@ -20,7 +20,13 @@ Build a standalone sample website for this folder.
 - Read `./COLOR_SCHEMA.md`
 
 ## Output
-- Create `index.html`
+- Create a 4-page static website
+- Required pages:
+  - `index.html` for the editorial landing and featured work overview
+  - `projects.html` for portfolio highlights and case summaries
+  - `perspective.html` for philosophy, curation, and collaboration approach
+  - `contact.html` for inquiry, client context, and contact guidance
+- Keep shared assets inside the sample folder
 - Create `css/styles.css`
 - Create `js/scripts.js` only if interaction adds clear value
 

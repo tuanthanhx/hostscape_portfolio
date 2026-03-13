@@ -5,7 +5,7 @@ Build a standalone sample website for this folder.
 ## Sample Identity
 - Title: Creative Service Website
 - Slug: `creative-service`
-- Type: Creative studio or service website
+- Type: Multi-page creative studio or service website
 
 ## Objective
 - Create a modular creative service website that explains offerings clearly while still feeling design-forward.
@@ -20,7 +20,13 @@ Build a standalone sample website for this folder.
 - Read `./COLOR_SCHEMA.md`
 
 ## Output
-- Create `index.html`
+- Create a 4-page static website
+- Required pages:
+  - `index.html` for positioning, selected work, and inquiry entry
+  - `services.html` for offer structure and process overview
+  - `work.html` for cases, outcomes, and portfolio highlights
+  - `contact.html` for consultation flow, FAQ, and inquiry details
+- Keep shared assets inside the sample folder
 - Create `css/styles.css`
 - Create `js/scripts.js` only if interaction adds clear value
 

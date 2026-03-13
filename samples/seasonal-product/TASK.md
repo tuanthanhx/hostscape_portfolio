@@ -20,7 +20,8 @@ Build a standalone sample website for this folder.
 - Read `./COLOR_SCHEMA.md`
 
 ## Output
-- Create `index.html`
+- Create a single-page static campaign website centered on `index.html`
+- Keep the promotional message compact, urgent, and easy to scan in one flow
 - Create `css/styles.css`
 - Create `js/scripts.js` only if interaction adds clear value
 

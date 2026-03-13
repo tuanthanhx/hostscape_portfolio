@@ -5,7 +5,7 @@ Build a standalone sample website for this folder.
 ## Sample Identity
 - Title: Traditional Inn Storytelling Page
 - Slug: `traditional-inn`
-- Type: Ryokan-style storytelling website
+- Type: Multi-page ryokan-style storytelling website
 
 ## Objective
 - Create a calm editorial website presenting a traditional inn with heritage, hospitality, and atmosphere.
@@ -20,7 +20,13 @@ Build a standalone sample website for this folder.
 - Read `./COLOR_SCHEMA.md`
 
 ## Output
-- Create `index.html`
+- Create a 4-page static website
+- Required pages:
+  - `index.html` for the inn story and seasonal introduction
+  - `rooms.html` for guest room styles and stay details
+  - `cuisine.html` for dining, local ingredients, and hospitality moments
+  - `onsen.html` for bath facilities, access, and reservation guidance
+- Keep shared assets inside the sample folder
 - Create `css/styles.css`
 - Create `js/scripts.js` only if interaction adds clear value
 

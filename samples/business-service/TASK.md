@@ -5,7 +5,7 @@ Build a standalone sample website for this folder.
 ## Sample Identity
 - Title: Business Service Corporate Site
 - Slug: `business-service`
-- Type: B2B corporate service website
+- Type: Multi-page B2B corporate service website
 
 ## Objective
 - Create a structured corporate website explaining services clearly and building trust.
@@ -20,7 +20,13 @@ Build a standalone sample website for this folder.
 - Read `./COLOR_SCHEMA.md`
 
 ## Output
-- Create `index.html`
+- Create a 4-page static website
+- Required pages:
+  - `index.html` for positioning, trust, and inquiry entry
+  - `services.html` for service lines and support scope
+  - `cases.html` for results, client examples, and strengths
+  - `company.html` for company profile, FAQ, and contact guidance
+- Keep shared assets inside the sample folder
 - Create `css/styles.css`
 - Create `js/scripts.js` only if interaction adds clear value
 

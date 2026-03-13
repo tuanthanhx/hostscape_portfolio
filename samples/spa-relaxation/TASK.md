@@ -5,7 +5,7 @@ Build a standalone sample website for this folder.
 ## Sample Identity
 - Title: Spa & Relaxation Experience Page
 - Slug: `spa-relaxation`
-- Type: Premium spa website
+- Type: Multi-page premium spa website
 
 ## Objective
 - Create a serene spa website that presents treatments, atmosphere, and premium packages with clarity.
@@ -20,7 +20,13 @@ Build a standalone sample website for this folder.
 - Read `./COLOR_SCHEMA.md`
 
 ## Output
-- Create `index.html`
+- Create a 4-page static website
+- Required pages:
+  - `index.html` for the spa concept and reservation entry
+  - `treatments.html` for treatment menus and featured courses
+  - `packages.html` for couple plans, seasonal plans, and premium options
+  - `access.html` for hours, facilities, policy notes, and reservation guidance
+- Keep shared assets inside the sample folder
 - Create `css/styles.css`
 - Create `js/scripts.js` only if interaction adds clear value
 

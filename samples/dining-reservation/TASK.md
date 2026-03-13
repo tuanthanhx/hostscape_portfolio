@@ -5,7 +5,7 @@ Build a standalone sample website for this folder.
 ## Sample Identity
 - Title: Dining & Reservation Showcase
 - Slug: `dining-reservation`
-- Type: Restaurant reservation-focused website
+- Type: Multi-page restaurant reservation-focused website
 
 ## Objective
 - Create a refined restaurant website that highlights cuisine, atmosphere, and reservation intent.
@@ -20,7 +20,13 @@ Build a standalone sample website for this folder.
 - Read `./COLOR_SCHEMA.md`
 
 ## Output
-- Create `index.html`
+- Create a 4-page static website
+- Required pages:
+  - `index.html` for concept, atmosphere, and reservation entry
+  - `menu.html` for course details and signature dishes
+  - `space.html` for seating, private dining, and use cases
+  - `reservation.html` for hours, booking flow, policies, access, and contact
+- Keep shared assets inside the sample folder
 - Create `css/styles.css`
 - Create `js/scripts.js` only if interaction adds clear value
 

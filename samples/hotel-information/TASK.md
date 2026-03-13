@@ -5,7 +5,7 @@ Build a standalone sample website for this folder.
 ## Sample Identity
 - Title: Hotel Information Architecture Build
 - Slug: `hotel-information`
-- Type: Multi-section hotel information website
+- Type: Multi-page hotel information website
 
 ## Objective
 - Create a scalable hotel website that prioritizes information architecture, clarity, and navigation.
@@ -20,7 +20,14 @@ Build a standalone sample website for this folder.
 - Read `./COLOR_SCHEMA.md`
 
 ## Output
-- Create `index.html`
+- Create a 5-page static website
+- Required pages:
+  - `index.html` for hotel overview, booking entry, and major navigation
+  - `rooms.html` for room types and stay details
+  - `facilities.html` for dining, bath, services, and amenities
+  - `access.html` for location, transportation, parking, and local guidance
+  - `faq.html` for notices, seasonal updates, and pre-booking information
+- Keep shared assets inside the sample folder
 - Create `css/styles.css`
 - Create `js/scripts.js` only if interaction adds clear value
 

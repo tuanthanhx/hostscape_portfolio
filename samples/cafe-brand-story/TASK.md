@@ -5,7 +5,7 @@ Build a standalone sample website for this folder.
 ## Sample Identity
 - Title: Cafe Brand Story Website
 - Slug: `cafe-brand-story`
-- Type: Cafe branding website
+- Type: Multi-page cafe branding website
 
 ## Objective
 - Create a warm branded cafe website that introduces the shop personality, menu, and location.
@@ -20,7 +20,13 @@ Build a standalone sample website for this folder.
 - Read `./COLOR_SCHEMA.md`
 
 ## Output
-- Create `index.html`
+- Create a 4-page static website
+- Required pages:
+  - `index.html` for the cafe story and visit entry
+  - `menu.html` for drinks, sweets, and seasonal highlights
+  - `space.html` for interior mood, seating, and community appeal
+  - `access.html` for hours, location, and visit guidance
+- Keep shared assets inside the sample folder
 - Create `css/styles.css`
 - Create `js/scripts.js` only if interaction adds clear value
 

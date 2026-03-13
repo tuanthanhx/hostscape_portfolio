@@ -20,7 +20,8 @@ Build a standalone sample website for this folder.
 - Read `./COLOR_SCHEMA.md`
 
 ## Output
-- Create `index.html`
+- Create a single-page static landing website centered on `index.html`
+- Keep the experience immersive and conversion-oriented rather than splitting it into multiple pages
 - Create `css/styles.css`
 - Create `js/scripts.js` only if interaction adds clear value
 

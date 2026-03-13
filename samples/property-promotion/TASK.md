@@ -5,7 +5,7 @@ Build a standalone sample website for this folder.
 ## Sample Identity
 - Title: Property Promotion Website
 - Slug: `property-promotion`
-- Type: Real estate or rental showcase website
+- Type: Multi-page real estate or rental showcase website
 
 ## Objective
 - Create a property promotion page presenting location, layout, and lifestyle value in a trustworthy way.
@@ -20,7 +20,13 @@ Build a standalone sample website for this folder.
 - Read `./COLOR_SCHEMA.md`
 
 ## Output
-- Create `index.html`
+- Create a 4-page static website
+- Required pages:
+  - `index.html` for property positioning and inquiry entry
+  - `plans.html` for layouts, specifications, and key features
+  - `location.html` for access, neighborhood appeal, and nearby facilities
+  - `gallery.html` for visual highlights, FAQs, and inquiry guidance
+- Keep shared assets inside the sample folder
 - Create `css/styles.css`
 - Create `js/scripts.js` only if interaction adds clear value
 

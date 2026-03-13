@@ -5,7 +5,7 @@ Build a standalone sample website for this folder.
 ## Sample Identity
 - Title: Accommodation Rebrand Website
 - Slug: `accommodation-rebrand`
-- Type: Hospitality rebrand rollout site
+- Type: Multi-page hospitality rebrand rollout site
 
 ## Objective
 - Create a hospitality website that expresses a refreshed brand identity while preserving trust and usability.
@@ -20,7 +20,13 @@ Build a standalone sample website for this folder.
 - Read `./COLOR_SCHEMA.md`
 
 ## Output
-- Create `index.html`
+- Create a 4-page static website
+- Required pages:
+  - `index.html` for the renewed brand overview and booking entry
+  - `rooms.html` for stay highlights and room positioning
+  - `facilities.html` for dining, amenities, and upgraded services
+  - `access.html` for access, contact, FAQ, and inquiry guidance
+- Keep shared assets inside the sample folder
 - Create `css/styles.css`
 - Create `js/scripts.js` only if interaction adds clear value
 
