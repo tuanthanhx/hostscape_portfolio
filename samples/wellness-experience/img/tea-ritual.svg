@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 860" role="img" aria-labelledby="title desc">
+  <title id="title">施術後のお茶時間</title>
+  <desc id="desc">木の台の上に器と薬草茶を配した静かなティーシーンのイラスト</desc>
+  <rect width="1200" height="860" fill="#f3eee6"/>
+  <rect y="560" width="1200" height="300" fill="#8c6852"/>
+  <rect x="120" y="160" width="960" height="360" rx="28" fill="#c8a58d"/>
+  <rect x="188" y="226" width="824" height="234" rx="18" fill="#9a765d"/>
+  <ellipse cx="338" cy="590" rx="100" ry="38" fill="#3d3029"/>
+  <rect x="280" y="430" width="116" height="164" rx="18" fill="#221d1a"/>
+  <ellipse cx="786" cy="582" rx="132" ry="46" fill="#5d4639"/>
+  <rect x="726" y="398" width="120" height="188" rx="60" fill="#f1ebe1"/>
+  <path d="M846 450c38-14 70 8 72 44" fill="none" stroke="#f1ebe1" stroke-width="18" stroke-linecap="round"/>
+  <rect x="506" y="504" width="138" height="20" rx="10" fill="#dcc39c"/>
+  <path d="M554 318c-22-38 18-62 10-96" fill="none" stroke="#e6d8bf" stroke-width="10" stroke-linecap="round"/>
+  <path d="M606 302c-24-34 18-62 6-100" fill="none" stroke="#e6d8bf" stroke-width="10" stroke-linecap="round"/>
+</svg>

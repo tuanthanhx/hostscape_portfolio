@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 860" role="img" aria-labelledby="title desc">
+  <title id="title">森の散策</title>
+  <desc id="desc">木漏れ日の中をゆっくり歩くゲストを描いたイラスト</desc>
+  <rect width="1200" height="860" fill="#edf1e9"/>
+  <rect y="620" width="1200" height="240" fill="#c8b59d"/>
+  <rect x="110" y="70" width="56" height="650" fill="#5f7158"/>
+  <rect x="250" y="20" width="46" height="700" fill="#73886b"/>
+  <rect x="422" y="40" width="42" height="680" fill="#677f5e"/>
+  <rect x="610" y="0" width="52" height="720" fill="#5b6f54"/>
+  <rect x="786" y="55" width="48" height="665" fill="#6a805f"/>
+  <rect x="980" y="30" width="42" height="690" fill="#607557"/>
+  <circle cx="138" cy="92" r="126" fill="#c5d2b8"/>
+  <circle cx="272" cy="66" r="136" fill="#b4c8a6"/>
+  <circle cx="440" cy="78" r="142" fill="#cad7be"/>
+  <circle cx="636" cy="32" r="150" fill="#bdcfb3"/>
+  <circle cx="810" cy="88" r="132" fill="#c9d7bd"/>
+  <circle cx="1002" cy="72" r="138" fill="#b8caa8"/>
+  <ellipse cx="602" cy="770" rx="210" ry="54" fill="#b7a38a"/>
+  <circle cx="600" cy="550" r="36" fill="#d4b39d"/>
+  <rect x="568" y="590" width="64" height="110" rx="28" fill="#7c8a6d"/>
+  <rect x="540" y="702" width="34" height="94" rx="16" fill="#6d5c4e"/>
+  <rect x="626" y="702" width="34" height="94" rx="16" fill="#6d5c4e"/>
+</svg>

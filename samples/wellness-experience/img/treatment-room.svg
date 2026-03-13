@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 980" role="img" aria-labelledby="title desc">
+  <title id="title">トリートメントルーム</title>
+  <desc id="desc">森に面した大きな窓と施術ベッドのある静かな空間を描いたイラスト</desc>
+  <rect width="1400" height="980" fill="#f6f3ec"/>
+  <rect x="110" y="100" width="1180" height="760" rx="16" fill="#e9e0d1"/>
+  <rect x="190" y="168" width="610" height="540" rx="12" fill="#c9d8c0"/>
+  <rect x="224" y="202" width="542" height="472" rx="10" fill="#d8e3d1"/>
+  <rect x="264" y="244" width="112" height="388" fill="#91a382"/>
+  <rect x="404" y="214" width="92" height="418" fill="#7f9674"/>
+  <rect x="520" y="234" width="118" height="398" fill="#9ab08c"/>
+  <rect x="836" y="180" width="328" height="210" rx="10" fill="#d7c5a8"/>
+  <rect x="860" y="510" width="280" height="110" rx="55" fill="#efe7db"/>
+  <rect x="884" y="468" width="232" height="76" rx="20" fill="#f8f5ef"/>
+  <rect x="900" y="620" width="208" height="56" rx="12" fill="#cfbaa0"/>
+  <rect x="862" y="704" width="80" height="72" rx="8" fill="#6f8a64"/>
+  <rect x="1048" y="704" width="88" height="72" rx="8" fill="#e2b66b"/>
+</svg>
