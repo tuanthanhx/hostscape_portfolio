@@ -197,27 +197,11 @@ code {
   min-height: 300px;
 }
 
-.portfolio-card__screen::before,
-.portfolio-card__screen::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-}
-
-.portfolio-card__screen::before {
-  background:
-    linear-gradient(120deg, rgba(255, 255, 255, 0.28), transparent 42%),
-    linear-gradient(180deg, rgba(47, 42, 40, 0.05), rgba(47, 42, 40, 0));
-}
-
-.portfolio-card__screen::after {
-  inset: auto 20px 20px;
-  height: 44%;
-  border-radius: 24px;
-  background:
-    linear-gradient(180deg, rgba(255, 255, 255, 0.18), rgba(255, 255, 255, 0)),
-    rgba(255, 255, 255, 0.14);
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.34);
+.portfolio-card__screen img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .portfolio-card__screen--amber {
