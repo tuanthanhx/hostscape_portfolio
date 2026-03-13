@@ -34,6 +34,9 @@ Build a standalone sample website for this folder.
 - Mood: energetic, editorial, campaign-oriented
 - Prioritize fast scanning, offer clarity, and visible CTA placement
 - The page should feel lightweight and timely
+- Avoid repeating the boxed-card-heavy layout style used in earlier completed samples
+- Favor a more open travel-campaign composition with layered sections, bands, large imagery, split layouts, timeline-like content flow, or poster-inspired typography
+- Let the page feel like a seasonal campaign feature rather than a grid of floating cards
 
 ## Content Direction
 - Use realistic Japanese copy
@@ -61,11 +64,15 @@ Build a standalone sample website for this folder.
 - Tabs, filter-style UI, or simple reveal effects are acceptable
 - Respect `prefers-reduced-motion`
 - Keep interaction secondary to campaign clarity
+- If grouping offers or destinations, prefer editorial anchors, horizontal bands, highlighted panels, or comparison strips over repeating identical card components
 
 ## Visual Constraints
 - Follow `COLOR_SCHEMA.md`
 - Use accent color to emphasize offers and limited-time messaging
 - Maintain strong contrast and readability on mobile
+- Do not default to boxed cards for every major section
+- Use at least one layout approach that clearly differs from the `luxury-stay` and `resort-landing` samples, such as full-width scenic panels, asymmetrical columns, overlapping callouts, ticker-style campaign info, or itinerary-strip sections
+- Keep the overall presentation more graphic and campaign-led than hospitality-luxury boxed UI
 
 ## Success Criteria
 - The page looks portfolio-ready
