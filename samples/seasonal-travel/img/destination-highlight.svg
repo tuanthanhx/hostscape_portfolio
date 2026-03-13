@@ -1,0 +1,18 @@
+<svg width="1100" height="760" viewBox="0 0 1100 760" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="destTitle destDesc">
+  <title id="destTitle">Destination highlight placeholder</title>
+  <desc id="destDesc">Map-style travel editorial visual with route markers and seasonal notes.</desc>
+  <rect width="1100" height="760" fill="#F7FAFE"/>
+  <rect x="60" y="62" width="980" height="636" rx="36" fill="#FFFFFF"/>
+  <path d="M176 246C260 190 332 176 420 182C516 189 580 232 650 232C734 232 797 193 904 144" stroke="#145DA0" stroke-width="12" stroke-linecap="round" stroke-dasharray="12 18"/>
+  <circle cx="176" cy="246" r="24" fill="#FF7A45"/>
+  <circle cx="420" cy="182" r="24" fill="#6DA9E4"/>
+  <circle cx="650" cy="232" r="24" fill="#FF7A45"/>
+  <circle cx="904" cy="144" r="24" fill="#6DA9E4"/>
+  <rect x="132" y="344" width="252" height="196" rx="24" fill="#E8F2FD"/>
+  <rect x="424" y="306" width="248" height="234" rx="24" fill="#FFF1EA"/>
+  <rect x="714" y="360" width="248" height="180" rx="24" fill="#E8F2FD"/>
+  <rect x="162" y="382" width="190" height="44" rx="14" fill="#FFFFFF"/>
+  <rect x="454" y="348" width="184" height="44" rx="14" fill="#FFFFFF"/>
+  <rect x="748" y="398" width="178" height="44" rx="14" fill="#FFFFFF"/>
+  <text x="130" y="632" fill="#145DA0" font-family="sans-serif" font-size="30" font-weight="700" letter-spacing="4">DESTINATION EDIT</text>
+</svg>

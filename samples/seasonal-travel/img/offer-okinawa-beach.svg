@@ -1,0 +1,15 @@
+<svg width="900" height="620" viewBox="0 0 900 620" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="okinawaTitle okinawaDesc">
+  <title id="okinawaTitle">Okinawa beach offer placeholder</title>
+  <desc id="okinawaDesc">Island beach scene with water, sky, and tropical silhouettes.</desc>
+  <rect width="900" height="620" fill="#F6FBFF"/>
+  <rect y="334" width="900" height="286" fill="#9CE3F8"/>
+  <path d="M0 384C118 360 202 371 320 399C422 424 536 430 644 409C752 388 830 352 900 324V620H0V384Z" fill="#6DA9E4"/>
+  <path d="M0 446C132 434 230 474 344 505C454 535 586 541 702 511C786 489 848 458 900 430V620H0V446Z" fill="#145DA0"/>
+  <circle cx="724" cy="126" r="58" fill="#FF7A45"/>
+  <path d="M150 542C150 438 179 342 240 270" stroke="#7D5A35" stroke-width="16" stroke-linecap="round"/>
+  <path d="M212 330C260 286 303 252 355 226" stroke="#7D5A35" stroke-width="16" stroke-linecap="round"/>
+  <path d="M209 360C276 364 332 355 396 332" stroke="#7D5A35" stroke-width="16" stroke-linecap="round"/>
+  <path d="M222 406C278 432 324 455 356 498" stroke="#7D5A35" stroke-width="16" stroke-linecap="round"/>
+  <rect x="504" y="436" width="244" height="70" rx="22" fill="#FFFFFF"/>
+  <text x="84" y="576" fill="#F7FAFE" font-family="sans-serif" font-size="28" font-weight="700" letter-spacing="4">OKINAWA ISLAND STAY</text>
+</svg>

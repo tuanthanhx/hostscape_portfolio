@@ -1,0 +1,18 @@
+<svg width="900" height="620" viewBox="0 0 900 620" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="taiwanTitle taiwanDesc">
+  <title id="taiwanTitle">Taiwan night offer placeholder</title>
+  <desc id="taiwanDesc">Night market inspired cityscape with lantern-like warm lights.</desc>
+  <rect width="900" height="620" fill="#F7FAFE"/>
+  <rect width="900" height="330" fill="#10243A"/>
+  <rect y="330" width="900" height="290" fill="#17446F"/>
+  <circle cx="714" cy="120" r="50" fill="#FF7A45"/>
+  <rect x="108" y="218" width="112" height="198" fill="#274B73"/>
+  <rect x="248" y="176" width="124" height="240" fill="#2D5785"/>
+  <rect x="400" y="210" width="118" height="206" fill="#274B73"/>
+  <rect x="552" y="154" width="132" height="262" fill="#2D5785"/>
+  <rect x="714" y="198" width="86" height="218" fill="#274B73"/>
+  <rect x="280" y="456" width="356" height="74" rx="22" fill="#FFF2EB"/>
+  <circle cx="174" cy="154" r="24" fill="#FFB18E"/>
+  <circle cx="236" cy="120" r="20" fill="#FFD2C2"/>
+  <circle cx="298" cy="154" r="22" fill="#FF9C73"/>
+  <text x="96" y="572" fill="#F7FAFE" font-family="sans-serif" font-size="28" font-weight="700" letter-spacing="4">TAIPEI FOOD & CITY WALK</text>
+</svg>
