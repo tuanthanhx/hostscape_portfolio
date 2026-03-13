@@ -7,6 +7,7 @@ This repository is a portfolio hub plus a workspace for generating standalone sa
 ### Main Agent
 - Read this file first.
 - Read `SAMPLE_SPEC.md`, `CODING_RULES.md`, and `REVIEW_CHECKLIST.md` before assigning or generating work.
+- Always respond to the user in English unless the user explicitly requests another language.
 - Use `samples/INDEX.md` as the source of truth for sample names, slugs, and progress.
 - Assign one sample at a time to a sub-agent.
 - Keep sub-agents scoped to one `samples/{slug}/` folder unless a root-level change is explicitly requested.
