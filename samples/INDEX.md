@@ -15,7 +15,7 @@ Use this file as the registry for all sample websites in `./samples/`.
 | Luxury Stay Promotion Site | `luxury-stay` | done | Premium hotel campaign page |
 | Resort Landing Experience | `resort-landing` | done | Tropical resort landing site |
 | Seasonal Travel Promotion | `seasonal-travel` | done | Travel campaign microsite |
-| Traditional Inn Storytelling Page | `traditional-inn` | planned | Ryokan-style editorial website |
+| Traditional Inn Storytelling Page | `traditional-inn` | done | Ryokan-style editorial website |
 | Dining & Reservation Showcase | `dining-reservation` | planned | Restaurant booking-focused site |
 | Business Service Corporate Site | `business-service` | planned | Structured B2B corporate website |
 | Wellness Experience Landing Page | `wellness-experience` | planned | Calm wellness service landing page |

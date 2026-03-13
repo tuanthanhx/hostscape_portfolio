@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1000" role="img" aria-labelledby="title desc">
+  <title id="title">和洋室睡蓮イメージ</title>
+  <desc id="desc">半露天風呂付き和洋室を表現したプレースホルダー画像です。</desc>
+  <rect width="1400" height="1000" fill="#f4efe6"/>
+  <rect y="730" width="1400" height="270" fill="#7a5a40"/>
+  <rect x="120" y="110" width="540" height="430" fill="#faf5ec" stroke="#cab7a0" stroke-width="10"/>
+  <path d="M390 110v430M120 325h540" stroke="#cab7a0" stroke-width="10"/>
+  <rect x="760" y="150" width="500" height="240" rx="16" fill="#dac5a5"/>
+  <rect x="790" y="180" width="180" height="180" rx="16" fill="#fffaf1"/>
+  <rect x="1010" y="180" width="210" height="180" rx="16" fill="#fffaf1"/>
+  <rect x="860" y="470" width="250" height="200" rx="28" fill="#ccb598"/>
+  <rect x="885" y="495" width="200" height="150" rx="24" fill="#a6c0b3"/>
+  <rect x="160" y="790" width="520" height="80" rx="10" fill="#d7c3a6"/>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1000" role="img" aria-labelledby="title desc">
+  <title id="title">温泉浴場イメージ</title>
+  <desc id="desc">木造りの浴場と湯舟を描いたプレースホルダー画像です。</desc>
+  <rect width="1400" height="1000" fill="#2c1b14"/>
+  <rect x="120" y="120" width="1160" height="260" fill="#513625"/>
+  <rect x="120" y="380" width="1160" height="120" fill="#74563d"/>
+  <rect x="180" y="520" width="1040" height="260" rx="28" fill="#b8c9c6"/>
+  <rect x="210" y="550" width="980" height="200" rx="20" fill="#8ab4b5"/>
+  <path d="M300 540c40-25 80-25 120 0s80 25 120 0 80-25 120 0 80 25 120 0 80-25 120 0 80 25 120 0" stroke="#e6f5f5" stroke-width="12" fill="none" opacity="0.55"/>
+  <rect x="220" y="180" width="180" height="150" fill="#efcf95" opacity="0.9"/>
+  <rect x="1000" y="180" width="180" height="150" fill="#efcf95" opacity="0.9"/>
+</svg>

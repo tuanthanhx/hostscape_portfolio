@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1000" role="img" aria-labelledby="title desc">
+  <title id="title">庭を望む談話処イメージ</title>
+  <desc id="desc">大きな窓から庭を望む談話処を表現したプレースホルダー画像です。</desc>
+  <rect width="1400" height="1000" fill="#eee6d8"/>
+  <rect x="90" y="100" width="1220" height="560" fill="#f8f4ed" stroke="#c7b299" stroke-width="12"/>
+  <path d="M395 100v560M700 100v560M1005 100v560M90 380h1220" stroke="#c7b299" stroke-width="10"/>
+  <rect x="110" y="120" width="1180" height="520" fill="#7b8d63"/>
+  <path d="M120 600c170-120 335-150 484-88 95 40 187 49 290 16 142-45 233-21 396 72V120H110v480z" fill="#9eb187"/>
+  <rect x="180" y="760" width="380" height="100" rx="16" fill="#6e4d39"/>
+  <rect x="640" y="740" width="220" height="140" rx="18" fill="#d8c3a5"/>
+  <rect x="940" y="760" width="260" height="100" rx="16" fill="#6e4d39"/>
+</svg>

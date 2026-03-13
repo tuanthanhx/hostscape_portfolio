@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1000" role="img" aria-labelledby="title desc">
+  <title id="title">和室山吹イメージ</title>
+  <desc id="desc">障子越しに庭が見える和室を描いたプレースホルダー画像です。</desc>
+  <rect width="1400" height="1000" fill="#f0eadf"/>
+  <rect y="700" width="1400" height="300" fill="#8a6442"/>
+  <rect x="100" y="100" width="820" height="520" fill="#faf4ea" stroke="#c5b39c" stroke-width="10"/>
+  <path d="M510 100v520M720 100v520M100 280h820M100 460h820" stroke="#c5b39c" stroke-width="10"/>
+  <rect x="950" y="120" width="330" height="420" rx="12" fill="#d7c6ac"/>
+  <rect x="980" y="150" width="270" height="180" fill="#879b69"/>
+  <rect x="995" y="165" width="240" height="150" fill="#b9c9a1"/>
+  <rect x="180" y="760" width="740" height="90" rx="10" fill="#d8c3a5"/>
+  <rect x="980" y="620" width="210" height="160" rx="10" fill="#efe7d8"/>
+  <rect x="1010" y="650" width="150" height="100" fill="#fff8ef"/>
+</svg>

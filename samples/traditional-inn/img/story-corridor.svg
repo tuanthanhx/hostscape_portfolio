@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1000" role="img" aria-labelledby="title desc">
+  <title id="title">木の回廊イメージ</title>
+  <desc id="desc">行灯が灯る木の回廊を表現したプレースホルダー画像です。</desc>
+  <defs>
+    <linearGradient id="wall" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#4a271b"/>
+      <stop offset="100%" stop-color="#1e120d"/>
+    </linearGradient>
+    <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#70523f"/>
+      <stop offset="100%" stop-color="#281712"/>
+    </linearGradient>
+  </defs>
+  <rect width="1400" height="1000" fill="#130d0a"/>
+  <polygon points="0,0 390,0 530,1000 0,1000" fill="url(#wall)"/>
+  <polygon points="1400,0 1010,0 870,1000 1400,1000" fill="url(#wall)"/>
+  <polygon points="390,0 1010,0 860,1000 540,1000" fill="#2a1c15"/>
+  <polygon points="540,1000 860,1000 1020,540 380,540" fill="url(#floor)"/>
+  <rect x="575" y="150" width="250" height="260" rx="8" fill="#efcf95" opacity="0.9"/>
+  <rect x="90" y="280" width="80" height="160" rx="8" fill="#d3aa67" opacity="0.8"/>
+  <rect x="1180" y="280" width="80" height="160" rx="8" fill="#d3aa67" opacity="0.8"/>
+</svg>
