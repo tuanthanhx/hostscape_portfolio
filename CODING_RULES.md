@@ -1,0 +1,42 @@
+# CODING_RULES.md
+
+These rules apply to all generated sample websites.
+
+## Stack
+- Default to static `HTML + CSS + JS`.
+- Do not introduce build tooling, package managers, or frameworks unless explicitly requested.
+
+## File and Folder Conventions
+- Keep implementation inside `samples/{slug}/`.
+- Use `css/styles.css` and `js/scripts.js` for primary files.
+- Use lowercase kebab-case for any new file or folder names.
+
+## HTML Rules
+- Use semantic elements such as `header`, `main`, `section`, `nav`, and `footer`.
+- Use one `h1` per page.
+- Avoid empty anchors and empty buttons.
+- Write realistic sample copy that matches the project type.
+
+## CSS Rules
+- Define theme variables in `:root`.
+- Keep spacing, radius, shadows, and colors as reusable tokens.
+- Prefer modern layout with flexbox and grid.
+- Ensure the site works at small mobile widths without horizontal scrolling.
+
+## JavaScript Rules
+- Use JavaScript only for meaningful interaction.
+- Keep scripts progressive and lightweight.
+- Avoid auto-playing disruptive behavior.
+- Respect `prefers-reduced-motion` when animating.
+
+## Asset Rules
+- Prefer CSS gradients, shapes, and layout design before adding many images.
+- If images are used, keep them local to the sample folder.
+- Do not hotlink third-party assets unless explicitly approved.
+
+## Quality Rules
+- No placeholder text.
+- No unused files.
+- No console errors.
+- No broken relative paths.
+- Keep comments short and only where they clarify non-obvious code.
