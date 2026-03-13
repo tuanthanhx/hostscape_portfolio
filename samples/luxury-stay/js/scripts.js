@@ -3,7 +3,20 @@ const siteNav = document.querySelector(".site-nav");
 const reveals = document.querySelectorAll(".reveal");
 const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
 
+const closeNavigation = () => {
+  if (!navToggle || !siteNav) {
+    return;
+  }
+
+  navToggle.setAttribute("aria-expanded", "false");
+  navToggle.setAttribute("aria-label", "メニューを開く");
+  siteNav.classList.remove("is-open");
+  document.body.dataset.navOpen = "false";
+};
+
 if (navToggle && siteNav) {
+  document.body.dataset.navOpen = "false";
+
   navToggle.addEventListener("click", () => {
     const isOpen = navToggle.getAttribute("aria-expanded") === "true";
     navToggle.setAttribute("aria-expanded", String(!isOpen));
@@ -13,12 +26,19 @@ if (navToggle && siteNav) {
   });
 
   siteNav.querySelectorAll("a").forEach((link) => {
-    link.addEventListener("click", () => {
-      navToggle.setAttribute("aria-expanded", "false");
-      navToggle.setAttribute("aria-label", "メニューを開く");
-      siteNav.classList.remove("is-open");
-      document.body.dataset.navOpen = "false";
-    });
+    link.addEventListener("click", closeNavigation);
+  });
+
+  window.addEventListener("keydown", (event) => {
+    if (event.key === "Escape") {
+      closeNavigation();
+    }
+  });
+
+  window.addEventListener("resize", () => {
+    if (window.innerWidth > 960) {
+      closeNavigation();
+    }
   });
 }
 

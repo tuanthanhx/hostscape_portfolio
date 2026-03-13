@@ -38,6 +38,11 @@ body {
   line-height: 1.7;
 }
 
+section[id],
+footer[id] {
+  scroll-margin-top: 6rem;
+}
+
 img {
   max-width: 100%;
   display: block;
@@ -128,6 +133,15 @@ a {
 
 .site-nav a {
   color: var(--color-primary);
+}
+
+.site-nav a:hover,
+.site-nav a:focus-visible,
+.footer-nav a:hover,
+.footer-nav a:focus-visible,
+.site-footer p a:hover,
+.site-footer p a:focus-visible {
+  color: var(--color-accent);
 }
 
 .nav-cta {
@@ -322,7 +336,8 @@ a {
 
 .experience-cards,
 .rooms-grid,
-.dining-grid {
+.dining-grid,
+.faq-grid {
   display: grid;
   gap: 1.5rem;
   margin-top: 2rem;
@@ -335,6 +350,7 @@ a {
 .feature-card,
 .room-card,
 .dining-card,
+.faq-card,
 .amenities-panel,
 .testimonial,
 .booking-panel {
@@ -447,6 +463,31 @@ a {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
+.faq-section {
+  background:
+    linear-gradient(180deg, rgba(31, 42, 68, 0.03), rgba(255, 249, 242, 0.55)),
+    linear-gradient(180deg, transparent, rgba(122, 92, 62, 0.04));
+}
+
+.faq-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.faq-card {
+  padding: 1.8rem;
+}
+
+.faq-card h3 {
+  margin-top: 0;
+  color: var(--color-primary);
+  font-size: 1.1rem;
+}
+
+.faq-card p {
+  margin-bottom: 0;
+  color: var(--color-muted);
+}
+
 .trust-grid {
   grid-template-columns: 0.95fr 1.05fr;
   align-items: start;
@@ -526,6 +567,10 @@ a {
   color: #fff;
 }
 
+.footer-address {
+  font-style: normal;
+}
+
 .footer-brand {
   display: inline-block;
   margin-bottom: 1rem;
@@ -589,6 +634,7 @@ body[data-nav-open="true"] {
   .experience-cards,
   .rooms-grid,
   .dining-grid,
+  .faq-grid,
   .intro-grid,
   .amenities-grid,
   .trust-grid,
