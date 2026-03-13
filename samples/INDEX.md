@@ -18,8 +18,8 @@ Use this file as the registry for all sample websites in `./samples/`.
 | Traditional Inn Storytelling Page | `traditional-inn` | done | Ryokan-style editorial website |
 | Dining & Reservation Showcase | `dining-reservation` | done | Restaurant booking-focused site |
 | Business Service Corporate Site | `business-service` | done | Structured B2B corporate website |
-| Wellness Experience Landing Page | `wellness-experience` | planned | Calm wellness service landing page |
-| Hotel Information Architecture Build | `hotel-information` | planned | Scalable multi-page hotel structure |
+| Wellness Experience Landing Page | `wellness-experience` | done | Calm wellness service landing page |
+| Hotel Information Architecture Build | `hotel-information` | done | Scalable multi-page hotel structure |
 | Seasonal Product Promotion Page | `seasonal-product` | planned | Retail campaign page |
 | Spa & Relaxation Experience Page | `spa-relaxation` | planned | Premium spa experience site |
 | Property Promotion Website | `property-promotion` | planned | Real estate or rental showcase |
