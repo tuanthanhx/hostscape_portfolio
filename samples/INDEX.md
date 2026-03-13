@@ -13,7 +13,7 @@ Use this file as the registry for all sample websites in `./samples/`.
 | Title | Slug | Status | Notes |
 | --- | --- | --- | --- |
 | Luxury Stay Promotion Site | `luxury-stay` | done | Premium hotel campaign page |
-| Resort Landing Experience | `resort-landing` | planned | Tropical resort landing site |
+| Resort Landing Experience | `resort-landing` | done | Tropical resort landing site |
 | Seasonal Travel Promotion | `seasonal-travel` | planned | Travel campaign microsite |
 | Traditional Inn Storytelling Page | `traditional-inn` | planned | Ryokan-style editorial website |
 | Dining & Reservation Showcase | `dining-reservation` | planned | Restaurant booking-focused site |
