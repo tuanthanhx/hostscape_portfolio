@@ -11,7 +11,6 @@
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-  <a class="skip-link" href="#main-content">本文へ移動</a>
   <header class="site-header" id="top">
     <div class="container header-inner">
       <a class="brand-mark" href="#top" aria-label="碧凪リトリート沖永良部 ホーム">
@@ -62,9 +61,6 @@
         </div>
 
         <div class="hero-side reveal">
-          <figure class="hero-visual">
-            <img src="img/hero-placeholder.svg" alt="海辺のインフィニティプールとヴィラを描いたプレースホルダー画像">
-          </figure>
           <aside class="hero-card" aria-label="おすすめ宿泊プラン">
             <p class="hero-card__label">SEASONAL STAY</p>
             <h2>初夏限定 3泊リトリートプラン</h2>
@@ -132,7 +128,7 @@
         </div>
         <div class="card-grid card-grid--three">
           <article class="feature-card reveal">
-            <img class="card-image" src="img/room-ocean-suite.svg" alt="オーシャンスイートの室内を表現したプレースホルダー画像">
+            <img class="card-image" src="img/room_img_01.jpg" alt="オーシャンスイートの室内を表現したプレースホルダー画像">
             <span class="feature-card__tag">FOR COUPLES</span>
             <h3>オーシャンスイート</h3>
             <p>
@@ -146,7 +142,7 @@
             </ul>
           </article>
           <article class="feature-card reveal">
-            <img class="card-image" src="img/room-garden-villa.svg" alt="芝庭付きガーデンヴィラを表現したプレースホルダー画像">
+            <img class="card-image" src="img/room_img_02.jpg" alt="芝庭付きガーデンヴィラを表現したプレースホルダー画像">
             <span class="feature-card__tag">FOR FAMILIES</span>
             <h3>ガーデンヴィラ</h3>
             <p>
@@ -160,7 +156,7 @@
             </ul>
           </article>
           <article class="feature-card reveal">
-            <img class="card-image" src="img/room-pool-villa.svg" alt="崖上のプールヴィラを表現したプレースホルダー画像">
+            <img class="card-image" src="img/room_img_03.jpg" alt="崖上のプールヴィラを表現したプレースホルダー画像">
             <span class="feature-card__tag">FOR LONG STAYS</span>
             <h3>クリフトッププールヴィラ</h3>
             <p>
@@ -177,7 +173,7 @@
       </div>
     </section>
 
-    <section class="facilities section" id="facilities">
+    <section class="facilities section section--mist" id="facilities">
       <div class="container">
         <div class="section-heading reveal">
           <p class="eyebrow">Facilities</p>
@@ -224,6 +220,26 @@
           <p class="eyebrow">Local Experiences</p>
           <h2>島の自然と文化を、<br>滞在にそっと重ねる体験。</h2>
         </div>
+        <article class="experience-feature reveal">
+          <img
+            class="experience-feature__image"
+            src="img/experience_bg.jpg"
+            alt="海辺のテラスと水平線が広がるリゾートの風景"
+          >
+          <div class="experience-feature__body">
+            <p class="experience-feature__eyebrow">Island Rhythm</p>
+            <h3>到着した瞬間から、<br>滞在の速度をゆるめる設計。</h3>
+            <p>
+              朝は潮の香りとともにテラスで深呼吸し、日中は海や洞窟を巡り、夕方はサンセットに合わせてラウンジへ。
+              観光を詰め込むのではなく、島のリズムに自分を合わせていく過ごし方をご提案しています。
+            </p>
+            <ul class="experience-feature__list" aria-label="滞在の流れ">
+              <li>7:00 テラスモーニング</li>
+              <li>11:00 海と洞窟のアクティビティ</li>
+              <li>18:30 夕景に寄り添うディナー</li>
+            </ul>
+          </div>
+        </article>
         <div class="experience-list">
           <article class="experience-card reveal">
             <h3>ケイビングと石灰岩ツアー</h3>
@@ -253,7 +269,7 @@
       </div>
     </section>
 
-    <section class="reviews section" id="reviews">
+    <section class="reviews section section--deep" id="reviews">
       <div class="container">
         <div class="section-heading reveal">
           <p class="eyebrow">Guest Trust</p>
@@ -314,22 +330,34 @@
   </main>
 
   <footer class="site-footer">
-    <div class="container footer-layout">
-      <div>
+    <div class="container footer-simple">
+      <div class="footer-simple__info">
+        <p class="site-footer__eyebrow">OKINOERABU ISLAND RESORT</p>
         <p class="site-footer__title">碧凪リトリート沖永良部</p>
-        <p>〒891-9214 鹿児島県大島郡知名町瀬利覚 2876</p>
-        <p>TEL 0997-00-3180 / MAIL stay@aonagi-retreat.jp</p>
+        <p class="site-footer__summary">
+          〒891-9214 鹿児島県大島郡知名町瀬利覚 2876
+          <br>
+          チェックイン 15:00 / チェックアウト 11:00
+          <br>
+          空港送迎あり / 全館Wi-Fi / 無料駐車場完備
+        </p>
       </div>
-      <nav class="footer-nav" aria-label="フッターメニュー">
-        <a href="#overview">滞在の魅力</a>
-        <a href="#rooms">客室</a>
-        <a href="#facilities">施設</a>
-        <a href="#experiences">周辺体験</a>
-        <a href="#reserve">予約案内</a>
-      </nav>
-      <p class="site-footer__meta">チェックイン 15:00 / チェックアウト 11:00</p>
+      <div class="footer-simple__contact">
+        <p class="footer-heading">Contact</p>
+        <a class="footer-contact__link" href="tel:0997-00-3180">0997-00-3180</a>
+        <a class="footer-contact__link" href="mailto:stay@aonagi-retreat.jp">stay@aonagi-retreat.jp</a>
+        <p class="site-footer__meta">受付時間 9:00-19:00 / 年中無休</p>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p class="site-footer__meta">© 2026 碧凪リトリート沖永良部 All Rights Reserved.</p>
     </div>
   </footer>
+
+  <button class="back-to-top" type="button" aria-label="ページ上部へ戻る">
+    <span aria-hidden="true">↑</span>
+  </button>
 
   <script src="js/scripts.js"></script>
 </body>
