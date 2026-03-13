@@ -14,6 +14,7 @@ Use this checklist before marking any sample complete.
 - At least 4 additional meaningful sections exist
 - CTAs match the sample type
 - No placeholder text remains
+- User-facing copy is written naturally in Japanese
 
 ## Responsive
 - The layout works on mobile widths
@@ -27,6 +28,7 @@ Use this checklist before marking any sample complete.
 - Focus states are visible
 - Text contrast is sufficient
 - Images have alt text when needed
+- The document language is set correctly for Japanese content
 
 ## Technical
 - Relative paths are correct

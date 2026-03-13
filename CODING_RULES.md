@@ -15,13 +15,15 @@ These rules apply to all generated sample websites.
 - Use semantic elements such as `header`, `main`, `section`, `nav`, and `footer`.
 - Use one `h1` per page.
 - Avoid empty anchors and empty buttons.
-- Write realistic sample copy that matches the project type.
+- Write realistic Japanese sample copy that matches the project type.
+- Set the document language correctly, typically `lang="ja"`.
 
 ## CSS Rules
 - Define theme variables in `:root`.
 - Keep spacing, radius, shadows, and colors as reusable tokens.
 - Prefer modern layout with flexbox and grid.
 - Ensure the site works at small mobile widths without horizontal scrolling.
+- Ensure line-height, spacing, and text widths remain comfortable for Japanese copy.
 
 ## JavaScript Rules
 - Use JavaScript only for meaningful interaction.
@@ -40,3 +42,4 @@ These rules apply to all generated sample websites.
 - No console errors.
 - No broken relative paths.
 - Keep comments short and only where they clarify non-obvious code.
+- Do not leave English UI copy unless the sample explicitly needs bilingual or English-only content.

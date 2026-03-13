@@ -22,6 +22,7 @@ This repository is a portfolio hub plus a workspace for generating standalone sa
 - Root `index.html` is the current portfolio page.
 - Each folder in `samples/` is a self-contained website sample.
 - Each sample should be implementation-ready for later linking from the portfolio.
+- The target audience for generated sample websites is Japanese clients and end users.
 
 ## Expected Sample Structure
 
@@ -39,6 +40,7 @@ If a sample is intentionally static and does not need JavaScript, keep `js/scrip
 - Keep all sample assets local to the sample folder.
 - Build responsive layouts for mobile and desktop.
 - Use semantic HTML and accessible interaction patterns.
+- Build sample websites in Japanese by default, including headings, body copy, CTAs, and navigation labels.
 - Avoid external UI libraries unless explicitly approved.
 - Do not leave placeholder copy such as "Lorem ipsum" or "Coming soon".
 - Do not modify unrelated files when working on a sample.
@@ -54,3 +56,4 @@ If a sample is intentionally static and does not need JavaScript, keep `js/scrip
 - The website should feel intentionally designed, not boilerplate.
 - The visual system must clearly reflect the sample's `COLOR_SCHEMA.md`.
 - The result should be usable as a portfolio demonstration without further cleanup.
+- The content should read naturally for Japanese users rather than translated-from-English marketing copy.

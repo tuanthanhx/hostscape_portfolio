@@ -21,6 +21,7 @@ Requirements:
 - Include a hero and at least 4 additional meaningful sections
 - Ensure responsive behavior for mobile and desktop
 - Use semantic HTML and accessible interaction patterns
+- Write the website in Japanese for Japanese clients and end users
 - Keep assets local to the sample folder
 - Avoid placeholder text and broken links
 

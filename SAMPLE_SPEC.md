@@ -5,6 +5,7 @@ This document defines the shared contract for every sample website in `./samples
 ## Goal
 - Produce a polished standalone sample site that matches its concept and `COLOR_SCHEMA.md`.
 - Keep each sample plausible as a real client-facing website, not a generic template.
+- Write the user-facing website content in Japanese because the expected clients are Japanese.
 
 ## Required Deliverables
 - `index.html`
@@ -17,6 +18,7 @@ This document defines the shared contract for every sample website in `./samples
 - At least 4 meaningful content sections beyond the hero
 - Primary CTA appropriate to the sample type
 - Footer with useful navigation or contact-style information
+- Natural Japanese navigation labels, section headings, and CTA copy
 
 ## Recommended Section Types
 - Overview or brand story
@@ -39,6 +41,7 @@ This document defines the shared contract for every sample website in `./samples
 - Keyboard-reachable interactive elements
 - Visible focus states
 - Sufficient contrast for text and controls
+- Set the page language correctly, typically with `lang="ja"` on the root `html` element
 
 ## Performance Baseline
 - Keep the implementation lightweight
@@ -51,8 +54,10 @@ This document defines the shared contract for every sample website in `./samples
 - Avoid generic default styles
 - Keep typography, spacing, and component shape consistent
 - Use color intentionally rather than decorating every element
+- Typography and rhythm should suit Japanese text density and line length
 
 ## Technical Scope
 - Default stack is plain HTML, CSS, and JavaScript unless the main agent says otherwise
 - Paths inside a sample should be relative to that sample folder
 - Samples should run as static files without a build step by default
+- Japanese copy is the default content language unless a specific sample brief says otherwise
