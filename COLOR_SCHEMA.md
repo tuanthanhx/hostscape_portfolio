@@ -1,8 +1,6 @@
 # Portfolio Color Schema
 
-Reference source: `Screenshot 2026-03-13 at 3.50.44 PM.png`
-
-This palette is extracted and normalized from the current website screenshot so future sections can stay visually aligned.
+This palette is extracted and normalized from the current website so future sections can stay visually aligned.
 
 ## Core Palette
 
