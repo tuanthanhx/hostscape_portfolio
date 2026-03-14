@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-labelledby="title desc">
+  <title id="title">Leco Painters logo</title>
+  <desc id="desc">Shield-inspired mark with a brush stroke and the letter L</desc>
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#183847"/>
+      <stop offset="100%" stop-color="#2e5567"/>
+    </linearGradient>
+  </defs>
+  <rect width="120" height="120" rx="28" fill="url(#g)"/>
+  <path d="M28 78c20-4 38-20 52-42 5 3 10 7 14 12-14 19-34 31-61 35l-5-5z" fill="#c46a34"/>
+  <path d="M43 28h14v42h28v14H43V28z" fill="#f7f2e8"/>
+</svg>

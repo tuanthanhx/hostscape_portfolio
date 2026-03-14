@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | NEXXTAV</title>
+  <meta
+    name="description"
+    content="Contact NEXXTAV for Crestron integration, AV design, programming, and smart control project inquiries."
+  >
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body class="site-body">
+  <div class="site-shell">
+    <header class="site-header">
+      <div class="site-header__inner container">
+        <a class="brand-mark" href="index.html" aria-label="NEXXTAV home">
+          <img class="brand-mark__logo" src="assets/img/nexxtav-mark.svg" alt="" aria-hidden="true">
+          <span class="brand-mark__text">
+            <span class="brand-mark__name">NEXXTAV</span>
+            <span class="brand-mark__tag">AV Integration, Crestron Control, and Smart Space Engineering</span>
+          </span>
+        </a>
+
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+          <span class="nav-toggle__line"></span>
+          <span class="nav-toggle__line"></span>
+          <span class="nav-toggle__line"></span>
+          <span class="nav-toggle__label">Menu</span>
+        </button>
+
+        <nav class="site-nav" id="site-nav" aria-label="Primary">
+          <ul class="site-nav__list">
+            <li class="site-nav__item"><a class="site-nav__link" href="index.html">Home</a></li>
+            <li class="site-nav__item"><a class="site-nav__link" href="services.html">Services</a></li>
+            <li class="site-nav__item"><a class="site-nav__link" href="projects.html">Projects</a></li>
+            <li class="site-nav__item"><a class="site-nav__link site-nav__link--active" href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <div class="container">
+          <div class="page-hero__layout">
+            <div class="page-hero__content">
+              <p class="eyebrow">Get in touch</p>
+              <h1 class="page-hero__title">Start a conversation around your next Crestron-led AV environment.</h1>
+              <p class="page-hero__text">
+                Contact NEXXTAV to discuss meeting room control, residential automation, hospitality AV,
+                or multi-space Crestron deployments.
+              </p>
+            </div>
+            <figure class="page-hero__visual">
+              <img class="page-hero__image" src="assets/img/contact-support.svg" alt="Support and system monitoring illustration">
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="contact-layout">
+            <div class="contact-panel">
+              <p class="eyebrow">Project inquiry</p>
+              <h2 class="contact-panel__title">Tell us what the environment needs to do.</h2>
+              <form class="contact-form" data-contact-form>
+                <div class="contact-form__grid">
+                  <div class="form-field">
+                    <label class="form-field__label" for="name">Name</label>
+                    <input class="form-field__input" id="name" name="name" type="text" placeholder="Alex Morgan" required>
+                  </div>
+                  <div class="form-field">
+                    <label class="form-field__label" for="company">Company</label>
+                    <input class="form-field__input" id="company" name="company" type="text" placeholder="Northline Group">
+                  </div>
+                  <div class="form-field">
+                    <label class="form-field__label" for="email">Email</label>
+                    <input class="form-field__input" id="email" name="email" type="email" placeholder="alex@example.com" required>
+                  </div>
+                  <div class="form-field">
+                    <label class="form-field__label" for="project-type">Project type</label>
+                    <select class="form-field__input form-field__input--select" id="project-type" name="project-type">
+                      <option>Boardroom / corporate AV</option>
+                      <option>Residential smart control</option>
+                      <option>Hospitality / venue</option>
+                      <option>Training / experience center</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="form-field">
+                  <label class="form-field__label" for="message">Project summary</label>
+                  <textarea class="form-field__input form-field__input--textarea" id="message" name="message" placeholder="Outline the rooms, control expectations, user groups, and timeline." required></textarea>
+                </div>
+
+                <button class="button button--primary" type="submit">Send Inquiry</button>
+                <p class="contact-form__notice" data-contact-form-message aria-live="polite"></p>
+              </form>
+            </div>
+
+            <aside class="contact-aside">
+              <article class="contact-card">
+                <span class="contact-card__icon contact-card__icon--mail" aria-hidden="true"></span>
+                <p class="contact-card__label">Direct contact</p>
+                <p class="contact-card__value">info@nexxtav.com</p>
+                <p class="contact-card__value">+1 (888) 639-9828</p>
+              </article>
+
+              <article class="contact-card">
+                <span class="contact-card__icon contact-card__icon--map" aria-hidden="true"></span>
+                <p class="contact-card__label">Service regions</p>
+                <p class="contact-card__text">Corporate campuses, premium residences, hotels, and event venues across major metropolitan markets.</p>
+              </article>
+
+              <article class="contact-card">
+                <span class="contact-card__icon contact-card__icon--settings" aria-hidden="true"></span>
+                <p class="contact-card__label">Engagement focus</p>
+                <p class="contact-card__text">Crestron programming, AV design coordination, commissioning support, and interface refinement.</p>
+              </article>
+            </aside>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="site-footer__inner container">
+        <div class="site-footer__brand">
+          <p class="site-footer__title">NEXXTAV</p>
+          <p class="site-footer__text">Crestron integration, AV control, commissioning, and support for modern spaces.</p>
+        </div>
+        <div class="site-footer__meta">
+          <a class="site-footer__link" href="index.html">Home</a>
+          <a class="site-footer__link" href="services.html">Services</a>
+          <a class="site-footer__link" href="projects.html">Projects</a>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="assets/js/scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 680" role="img" aria-labelledby="title desc">
+  <title id="title">Roof painting placeholder</title>
+  <desc id="desc">Stylised roof restoration scene with ladder and sky blocks</desc>
+  <rect width="960" height="680" fill="#dce8ea"/>
+  <rect y="474" width="960" height="206" fill="#e7dcc9"/>
+  <path d="M114 414 478 154l368 260H114z" fill="#c46a34"/>
+  <path d="M184 414 478 204l298 210H184z" fill="#8f4520"/>
+  <rect x="386" y="402" width="188" height="160" rx="14" fill="#f7f2e8"/>
+  <path d="M760 238h20v280h-20z" fill="#42545f"/>
+  <path d="M720 282h104v20H720zm0 70h104v20H720zm0 70h104v20H720z" fill="#42545f"/>
+  <circle cx="180" cy="128" r="50" fill="#f4c987"/>
+</svg>

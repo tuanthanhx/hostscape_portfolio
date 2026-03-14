@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 680" role="img" aria-labelledby="title desc">
+  <title id="title">Commercial office painting placeholder</title>
+  <desc id="desc">Stylised modern office interior scene with walls and furniture</desc>
+  <rect width="960" height="680" fill="#eef2f1"/>
+  <rect y="510" width="960" height="170" fill="#d3b794"/>
+  <rect x="94" y="116" width="772" height="378" rx="20" fill="#fdfbf6"/>
+  <rect x="94" y="116" width="772" height="96" rx="20" fill="#183847"/>
+  <rect x="142" y="256" width="182" height="162" rx="16" fill="#d8e0e4"/>
+  <rect x="380" y="256" width="182" height="162" rx="16" fill="#d8e0e4"/>
+  <rect x="618" y="256" width="182" height="162" rx="16" fill="#d8e0e4"/>
+  <rect x="200" y="450" width="560" height="18" rx="9" fill="#c46a34"/>
+  <rect x="255" y="468" width="26" height="80" fill="#516471"/>
+  <rect x="679" y="468" width="26" height="80" fill="#516471"/>
+</svg>

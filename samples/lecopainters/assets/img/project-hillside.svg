@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 680" role="img" aria-labelledby="title desc">
+  <title id="title">Residential exterior painting placeholder</title>
+  <desc id="desc">Stylised house on a hillside with paint-inspired color blocks</desc>
+  <rect width="960" height="680" fill="#d9e4e7"/>
+  <rect y="430" width="960" height="250" fill="#b7c7b0"/>
+  <path d="M0 500 170 400l180 24 178-94 148 35 284-82v397H0V500z" fill="#94ab8a"/>
+  <rect x="248" y="250" width="408" height="218" rx="16" fill="#f7f2e8"/>
+  <rect x="312" y="310" width="132" height="158" fill="#2c5061"/>
+  <rect x="474" y="310" width="118" height="74" fill="#d8e0e4"/>
+  <rect x="474" y="394" width="118" height="74" fill="#d8e0e4"/>
+  <path d="M226 266 454 126l228 140H226z" fill="#c46a34"/>
+  <circle cx="760" cy="152" r="54" fill="#f0c78b"/>
+</svg>
