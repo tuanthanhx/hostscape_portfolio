@@ -273,9 +273,8 @@ button {
 
 .hero__title,
 .page-hero h1 {
-  max-width: 13ch;
   margin-bottom: 1.1rem;
-  font-size: clamp(3.2rem, 5vw, 5.6rem);
+  font-size: clamp(3.2rem, 5vw, 4.9rem);
 }
 
 .hero__lead,
