@@ -98,7 +98,7 @@ textarea {
 
 .container {
   width: calc(100% - (var(--container-gutter) * 2));
-  max-width: none;
+  max-width: 1320px;
   margin: 0 auto;
 }
 
@@ -358,7 +358,6 @@ textarea {
   border-radius: var(--radius-lg);
 }
 
-.hero-card__visual,
 .page-hero__visual {
   margin: 0 0 1.2rem;
 }
@@ -397,8 +396,11 @@ textarea {
   line-height: 1.02;
 }
 
+.contact-panel__title {
+  margin-bottom: 0.5em;
+}
+
 .hero__title {
-  max-width: 12ch;
   font-size: clamp(2.8rem, 4vw, 5.2rem);
 }
 
@@ -416,7 +418,6 @@ textarea {
 }
 
 .hero__text {
-  max-width: 60ch;
   margin: 1.4rem 0 0;
   font-size: 1.05rem;
 }
@@ -732,7 +733,7 @@ textarea {
 }
 
 .project-showcase {
-  grid-template-columns: 1.45fr 1fr 1fr;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .project-tile {
@@ -741,10 +742,6 @@ textarea {
   flex-direction: column;
   justify-content: end;
   gap: 0.75rem;
-}
-
-.project-tile--wide {
-  min-height: 24rem;
 }
 
 .project-tile__image {
@@ -921,6 +918,7 @@ textarea {
 .form-field {
   display: grid;
   gap: 0.55rem;
+  margin: 1rem 0;
 }
 
 .form-field__label {
