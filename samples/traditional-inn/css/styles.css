@@ -185,7 +185,7 @@ main section {
 }
 
 .hero {
-  grid-template-columns: minmax(0, 1.2fr) minmax(20rem, 0.9fr);
+  grid-template-columns: minmax(0, 1fr);
   min-height: calc(100vh - 7rem);
   padding-bottom: var(--space-xxl);
 }
@@ -195,8 +195,17 @@ main section {
   padding-bottom: var(--space-xl);
 }
 
-.hero-home .hero-media {
-  min-height: 34rem;
+.hero-home {
+  width: 100vw;
+  max-width: none;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  padding-left: clamp(1.1rem, 4vw, 3rem);
+  padding-right: clamp(1.1rem, 4vw, 3rem);
+  justify-items: end;
+  background:
+    linear-gradient(90deg, rgba(43, 33, 24, 0.12) 0%, rgba(43, 33, 24, 0.18) 42%, rgba(43, 33, 24, 0.38) 62%, rgba(43, 33, 24, 0.7) 100%),
+    url("../img/hero_bg.jpg") center center / cover no-repeat;
 }
 
 .hero-media,
@@ -225,12 +234,22 @@ main section {
   pointer-events: none;
 }
 
-.hero-copy,
 .sub-hero-copy,
 .story-copy,
 .paired-copy,
 .room-copy {
   max-width: 40rem;
+}
+
+.hero .hero-copy {
+  width: min(100%, 50vw);
+  padding: clamp(1.5rem, 3vw, 2.5rem);
+  color: rgba(255, 253, 248, 0.96);
+}
+
+.hero .hero-copy .eyebrow,
+.hero .hero-copy .lead {
+  color: rgba(255, 253, 248, 0.82);
 }
 
 .eyebrow,
@@ -308,7 +327,6 @@ h3 {
   transform: translateY(-1px);
 }
 
-.intro-band,
 .reservation-banner {
   display: grid;
   grid-template-columns: 1fr 0.8fr;
@@ -344,7 +362,6 @@ h3 {
 }
 
 .section-heading {
-  max-width: 42rem;
   margin-bottom: clamp(2rem, 4vw, 3.2rem);
 }
 
@@ -381,6 +398,44 @@ h3 {
   border: 1px solid rgba(166, 124, 82, 0.16);
   border-radius: var(--radius-sm);
   padding: 1.4rem;
+}
+
+.room-summary {
+  display: grid;
+  gap: 1rem;
+  padding: 1rem;
+  background: linear-gradient(180deg, rgba(255, 253, 248, 0.92), rgba(248, 243, 235, 0.82));
+}
+
+.room-summary-media {
+  overflow: hidden;
+  border-radius: calc(var(--radius-sm) - 0.15rem);
+}
+
+.room-summary-media img {
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+
+.room-summary-label {
+  color: var(--color-secondary);
+  letter-spacing: 0.18em;
+  font-size: 0.74rem;
+  text-transform: uppercase;
+}
+
+.room-summary-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-top: 0.25rem;
+}
+
+.room-summary-meta .small-meta {
+  padding: 0.38rem 0.7rem;
+  border-radius: 999px;
+  background: rgba(107, 46, 46, 0.06);
+  border: 1px solid rgba(166, 124, 82, 0.18);
 }
 
 .section-link {
@@ -582,7 +637,6 @@ summary:focus-visible {
 @media (max-width: 960px) {
   .hero,
   .sub-hero,
-  .intro-band,
   .reservation-banner,
   .story-layout,
   .paired-feature,
@@ -606,8 +660,14 @@ summary:focus-visible {
     order: initial;
   }
 
-  .hero-home .hero-media {
-    min-height: 0;
+  .hero-home {
+    justify-items: stretch;
+    margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
+  }
+
+  .hero .hero-copy {
+    width: min(100%, 38rem);
   }
 }
 
@@ -673,6 +733,17 @@ summary:focus-visible {
 
   .header-inner {
     flex-wrap: wrap;
+  }
+
+  .hero-home {
+    min-height: 32rem;
+    background:
+      linear-gradient(180deg, rgba(43, 33, 24, 0.18) 0%, rgba(43, 33, 24, 0.28) 34%, rgba(43, 33, 24, 0.58) 100%),
+      url("../img/hero_bg.jpg") center center / cover no-repeat;
+  }
+
+  .hero .hero-copy {
+    padding: 1.25rem;
   }
 }
 
