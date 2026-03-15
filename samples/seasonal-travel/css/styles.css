@@ -58,21 +58,6 @@ select {
   outline-offset: 3px;
 }
 
-.skip-link {
-  position: absolute;
-  top: -48px;
-  left: 16px;
-  z-index: 50;
-  padding: 10px 14px;
-  border-radius: 999px;
-  background: var(--color-primary);
-  color: #fff;
-}
-
-.skip-link:focus {
-  top: 16px;
-}
-
 .container {
   width: var(--container);
   margin: 0 auto;
