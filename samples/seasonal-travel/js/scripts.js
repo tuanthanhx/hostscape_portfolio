@@ -3,6 +3,8 @@ const navToggle = document.querySelector(".nav-toggle");
 const navLinks = document.querySelectorAll(".site-nav a");
 const revealItems = document.querySelectorAll(".reveal");
 const faqItems = document.querySelectorAll(".faq-item");
+const ticker = document.querySelector(".campaign-ticker");
+const tickerTrack = document.querySelector(".campaign-ticker__track");
 const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
 if (header && navToggle) {
@@ -44,6 +46,42 @@ faqItems.forEach((item) => {
     });
   });
 });
+
+if (ticker && tickerTrack && !reducedMotion) {
+  const sourceGroup = tickerTrack.querySelector(".campaign-ticker__group");
+
+  const setupTicker = () => {
+    if (!sourceGroup) return;
+
+    tickerTrack.querySelectorAll(".campaign-ticker__group[aria-hidden='true']").forEach((clone) => {
+      clone.remove();
+    });
+
+    const baseWidth = sourceGroup.getBoundingClientRect().width;
+    const tickerWidth = ticker.getBoundingClientRect().width;
+
+    if (!baseWidth || !tickerWidth) return;
+
+    const cloneCount = Math.max(1, Math.ceil((tickerWidth * 2) / baseWidth));
+
+    for (let index = 0; index < cloneCount; index += 1) {
+      const clone = sourceGroup.cloneNode(true);
+      clone.setAttribute("aria-hidden", "true");
+      tickerTrack.append(clone);
+    }
+
+    tickerTrack.style.setProperty("--ticker-distance", `${baseWidth}px`);
+    tickerTrack.style.setProperty("--ticker-duration", `${Math.max(16, baseWidth / 45)}s`);
+  };
+
+  setupTicker();
+
+  let resizeFrame = 0;
+  window.addEventListener("resize", () => {
+    window.cancelAnimationFrame(resizeFrame);
+    resizeFrame = window.requestAnimationFrame(setupTicker);
+  });
+}
 
 if (revealItems.length) {
   if (reducedMotion || !("IntersectionObserver" in window)) {
