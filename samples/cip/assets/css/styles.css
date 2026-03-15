@@ -246,8 +246,7 @@ select {
 }
 
 .hero__title {
-  font-size: clamp(3rem, 6vw, 5.4rem);
-  max-width: 12ch;
+  font-size: clamp(3rem, 6vw, 4.4rem);
 }
 
 .hero__lead,
@@ -592,6 +591,11 @@ select {
   display: flex;
   flex-wrap: wrap;
   gap: 0.85rem;
+  flex: 0 0 230px;
+}
+
+.cta-panel__actions .button {
+  min-width: 230px;
 }
 
 .cta-panel .button--secondary {
