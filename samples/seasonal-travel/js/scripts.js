@@ -5,6 +5,7 @@ const revealItems = document.querySelectorAll(".reveal");
 const faqItems = document.querySelectorAll(".faq-item");
 const ticker = document.querySelector(".campaign-ticker");
 const tickerTrack = document.querySelector(".campaign-ticker__track");
+const heroSlider = document.querySelector(".hero-slider");
 const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
 if (header && navToggle) {
@@ -80,6 +81,24 @@ if (ticker && tickerTrack && !reducedMotion) {
   window.addEventListener("resize", () => {
     window.cancelAnimationFrame(resizeFrame);
     resizeFrame = window.requestAnimationFrame(setupTicker);
+  });
+}
+
+if (heroSlider && typeof Swiper !== "undefined") {
+  new Swiper(heroSlider, {
+    effect: "fade",
+    fadeEffect: {
+      crossFade: true,
+    },
+    loop: true,
+    speed: 1200,
+    allowTouchMove: false,
+    autoplay: reducedMotion
+      ? false
+      : {
+          delay: 4000,
+          disableOnInteraction: false,
+        },
   });
 }
 

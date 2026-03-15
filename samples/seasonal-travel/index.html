@@ -8,6 +8,7 @@
     name="description"
     content="春から初夏にかけての季節限定ツアーを集めた旅行キャンペーン特集。見どころ、特典、予約サポートを一画面で比較できます。"
   >
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -50,6 +51,25 @@
 
   <main id="main-content">
     <section class="hero">
+      <div class="swiper hero-slider" aria-hidden="true">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide hero-slider__slide">
+            <img src="img/hero_bg_01.jpg" alt="" width="1600" height="900" loading="eager">
+          </div>
+          <div class="swiper-slide hero-slider__slide">
+            <img src="img/hero_bg_02.jpg" alt="" width="1600" height="900" loading="lazy">
+          </div>
+          <div class="swiper-slide hero-slider__slide">
+            <img src="img/hero_bg_03.jpg" alt="" width="1600" height="900" loading="lazy">
+          </div>
+          <div class="swiper-slide hero-slider__slide">
+            <img src="img/hero_bg_04.jpg" alt="" width="1600" height="900" loading="lazy">
+          </div>
+          <div class="swiper-slide hero-slider__slide">
+            <img src="img/hero_bg_05.jpg" alt="" width="1600" height="900" loading="lazy">
+          </div>
+        </div>
+      </div>
       <div class="container">
         <div class="hero-copy reveal">
           <p class="eyebrow">SEASONAL CAMPAIGN</p>
@@ -71,12 +91,12 @@
       <div class="container">
         <div class="section-heading reveal">
           <p class="eyebrow">Featured Offers</p>
-          <h2>目的別に選べる、<br>今季の注目3プラン。</h2>
+          <h2>目的別に選べる、<br>今季の注目5プラン。</h2>
         </div>
 
         <article class="offer-band reveal">
           <div class="offer-band__visual">
-            <img src="img/offer-hokkaido-flower.svg" alt="花畑と列車旅を描いた北海道プランのプレースホルダー画像">
+            <img src="img/hero_bg_01.jpg" alt="花景色が広がる北海道周遊プランのイメージ" width="1600" height="900" loading="lazy">
           </div>
           <div class="offer-band__body">
             <div class="offer-band__meta">
@@ -98,7 +118,7 @@
 
         <article class="offer-band offer-band--reverse reveal">
           <div class="offer-band__visual">
-            <img src="img/offer-okinawa-beach.svg" alt="青い海と離島の景色を描いた沖縄プランのプレースホルダー画像">
+            <img src="img/hero_bg_02.jpg" alt="離島の海を楽しむ沖縄ステイプランのイメージ" width="1600" height="900" loading="lazy">
           </div>
           <div class="offer-band__body">
             <div class="offer-band__meta">
@@ -120,7 +140,7 @@
 
         <article class="offer-band reveal">
           <div class="offer-band__visual">
-            <img src="img/offer-taiwan-night.svg" alt="夜市と街歩きを描いた台湾プランのプレースホルダー画像">
+            <img src="img/hero_bg_03.jpg" alt="街歩きとグルメを楽しむ台北プランのイメージ" width="1600" height="900" loading="lazy">
           </div>
           <div class="offer-band__body">
             <div class="offer-band__meta">
@@ -136,6 +156,50 @@
               <li>現地日本語サポート付き</li>
               <li>九份と迪化街を効率良く周遊</li>
               <li>LCC以外のフライト指定も相談可能</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="offer-band offer-band--reverse reveal">
+          <div class="offer-band__visual">
+            <img src="img/hero_bg_04.jpg" alt="新緑の高原リゾートで過ごす軽井沢プランのイメージ" width="1600" height="900" loading="lazy">
+          </div>
+          <div class="offer-band__body">
+            <div class="offer-band__meta">
+              <span class="offer-band__tag">新緑リフレッシュ</span>
+              <span class="offer-band__price">2泊3日 58,000円〜</span>
+            </div>
+            <h3>軽井沢・上高地 高原の涼景リトリート</h3>
+            <p>
+              都心から移動しやすく、気温差で気分を切り替えやすい初夏の高原旅。
+              森の散策、温泉、ローカルダイニングをゆったり組み合わせたい方に向く滞在型プランです。
+            </p>
+            <ul class="offer-band__list">
+              <li>新幹線利用で移動負担を軽減</li>
+              <li>上高地ハイキングコースを選択可能</li>
+              <li>温泉旅館とデザインホテルから選べる</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="offer-band reveal">
+          <div class="offer-band__visual">
+            <img src="img/hero_bg_05.jpg" alt="海辺の夕景を楽しむ瀬戸内周遊プランのイメージ" width="1600" height="900" loading="lazy">
+          </div>
+          <div class="offer-band__body">
+            <div class="offer-band__meta">
+              <span class="offer-band__tag">穏やかな景色を巡る</span>
+              <span class="offer-band__price">3泊4日 81,200円〜</span>
+            </div>
+            <h3>瀬戸内しまなみ・倉敷 やわらかな海街周遊</h3>
+            <p>
+              島の景色と町歩きの両方を楽しめる、移動のテンポが心地よい国内周遊プラン。
+              サイクリング体験を加えることもでき、アートやカフェ巡りをしたい方にも相性の良い内容です。
+            </p>
+            <ul class="offer-band__list">
+              <li>尾道発着で旅程が組みやすい</li>
+              <li>倉敷美観地区の自由散策時間を確保</li>
+              <li>海側客室アップグレードを特別料金で追加可能</li>
             </ul>
           </div>
         </article>
@@ -171,7 +235,7 @@
       <div class="container">
         <div class="editorial-grid">
           <figure class="editorial-image reveal">
-            <img src="img/destination-highlight.svg" alt="季節の旅行先を紹介する地図と風景のプレースホルダー画像">
+            <img src="img/destination_img_01.jpg" alt="季節の旅行先を紹介する地図と風景のプレースホルダー画像">
           </figure>
           <div class="editorial-copy reveal">
             <p class="editorial-copy__eyebrow">TRAVEL EDIT</p>
@@ -291,6 +355,7 @@
     </div>
   </footer>
 
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script src="js/scripts.js"></script>
 </body>
 </html>
