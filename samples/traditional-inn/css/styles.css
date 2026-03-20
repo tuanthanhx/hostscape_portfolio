@@ -11,7 +11,7 @@
   --color-shadow: rgba(43, 33, 24, 0.12);
   --font-serif: "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
   --font-sans: "Hiragino Sans", "Yu Gothic", "Meiryo", sans-serif;
-  --max-width: 1180px;
+  --max-width: 1280px;
   --radius-sm: 1rem;
   --radius-lg: 2rem;
   --space-xs: 0.75rem;
@@ -197,11 +197,7 @@ main section {
 
 .hero-home {
   width: 100vw;
-  max-width: none;
-  margin-left: calc(50% - 50vw);
-  margin-right: calc(50% - 50vw);
-  padding-left: clamp(1.1rem, 4vw, 3rem);
-  padding-right: clamp(1.1rem, 4vw, 3rem);
+  max-width: 100%;
   justify-items: end;
   background:
     linear-gradient(90deg, rgba(43, 33, 24, 0.12) 0%, rgba(43, 33, 24, 0.18) 42%, rgba(43, 33, 24, 0.38) 62%, rgba(43, 33, 24, 0.7) 100%),
@@ -242,7 +238,7 @@ main section {
 }
 
 .hero .hero-copy {
-  width: min(100%, 50vw);
+  width: min(100%, 60vw);
   padding: clamp(1.5rem, 3vw, 2.5rem);
   color: rgba(255, 253, 248, 0.96);
 }
@@ -277,7 +273,7 @@ h1 {
 }
 
 h2 {
-  font-size: clamp(1.6rem, 3vw, 2.6rem);
+  font-size: clamp(1.6rem, 3vw, 1.9rem);
   margin-bottom: 1rem;
 }
 
